@@ -63,7 +63,7 @@ function Drawer({ onClose, onRemove, items = [], opened }) {
                   <img
                     onClick={() => onRemove(obj.id)}
                     className="removeBtn"
-                    src={arrow}
+                    src={remove}
                     alt="Remove"
                   />
                 </div>
